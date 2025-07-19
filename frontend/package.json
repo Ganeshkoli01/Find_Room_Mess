@@ -1,0 +1,35 @@
+{
+          "name": "find-room-mess-system",
+          "version": "1.0.0",
+          "main": "src/main.jsx",
+          "private": true,
+          "dependencies": {
+            "autoprefixer": "^10.4.0",
+            "axios": "^0.24.0",
+            "postcss": "^8.3.0",
+            "react": "^18.0.0",
+            "react-dom": "^18.0.0",
+            "react-router-dom": "^6.0.0",
+            "tailwindcss": "^3.0.0",
+            "vite": "^2.9.18"
+          },
+          "devDependencies": {
+            "@vitejs/plugin-react": "^1.3.2",
+            "vite-plugin-eslint": "^1.0.0",
+            "vite-plugin-svgr": "^3.0.0"
+          },
+          "scripts": {
+            "start": "vite",
+            "dev": "vite",
+            "build": "vite build",
+            "serve": "vite preview",
+            "lint": "eslint src --ext .js,.jsx"
+          },
+          "eslintConfig": {
+            "extends": [
+              "react-app",
+              "react-app/jest"
+            ]
+          }
+        }
+        
